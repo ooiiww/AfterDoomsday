@@ -38,6 +38,9 @@
 |
 */
 
+$route['messages/create'] = 'messages/create';
+$route['messsages/(:any)'] = 'messages/view/$1';
+$route['messages'] = 'messages';
 $route['default_controller'] = "welcome";
 $route['404_override'] = '';
 
